@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/starpage/starpage",
+    "pages/index/index",
+    "pages/goodsdetil/goodsdetil",
+    "pages/goods/goods",
+    "pages/rank/rank",
+    "pages/Inviterall/Inviterall",
+    "pages/found/found",
+    "pages/ArticleDetal/ArticleDetal",
+    "pages/error/error"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "navigateToMiniProgramAppIdList": [
+    "wxfc309251b237fda80",
+    "wxcbf69f1c714d6883",
+    "wx62442cceb6dba222"
+  ]
+}

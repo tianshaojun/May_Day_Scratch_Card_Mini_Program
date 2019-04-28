@@ -1,0 +1,208 @@
+
+page{
+	background-color:rgb(161,46,29);
+}
+.container {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 100rpx;
+}
+.titleimgconter{
+	text-align: center;
+}
+.titleimgconter .titleimg{
+	width:100%;
+	height: 94rpx;
+}
+.beffour .beffourimg{
+	width: 100%;
+}
+.rankinfo{
+	padding-top: 30rpx;
+}
+.rankList{
+	width:670rpx;
+	background:#E5CBA5;
+	border-radius:20rpx;
+	padding: 30rpx 30rpx 30rpx 30rpx;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.rankberfthree{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-top: 86rpx;
+}
+.rankberfthree .list{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.rankberfthree .list .center{
+	width:100%;
+	text-align: center;
+	position: relative;
+}
+.rankberfthree .list .center .hearcat{
+	width: 64rpx;
+	height: 54rpx;
+	position: absolute;
+	top: -40rpx;
+	left: 50%;
+	margin-left: -32rpx;
+}
+.rankberfthree .list{
+	padding-top: 26rpx;
+}
+.rankberfthree .list:nth-child(2){
+	padding-top: 0;
+}
+.rankberfthree .list:nth-child(2) .center .hearcat{
+	width: 80rpx;
+	height: 68rpx;
+	position: absolute;
+	top: -50rpx;
+	left: 50%;
+	margin-left: -40rpx;
+}
+.rankberfthree .list .center .centerImg{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.rankberfthree .list:nth-child(2) .center .centerImg{
+	width: 126rpx;
+	height: 126rpx;
+	border-radius: 50%;
+}
+.rankberfthree .list .btmname{
+	font-size: 28rpx;
+	color: #6E0703;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	width: 200rpx;
+	padding: 0 5rpx;
+}
+.rankberfthree .list .poenum{
+	font-size: 20rpx;
+	color: #6E0703;
+	text-align: center;
+	margin-top: 10rpx;
+	width: 200rpx;
+	padding: 0 5rpx;
+	 white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.listitem{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 40rpx;
+}
+.listitem .ranknum{
+	margin-left: 20rpx;
+	width:46rpx;
+	height:46rpx;
+	line-height: 46rpx;
+	text-align: center;
+	background:#E8557F;
+	border-radius:50%;	
+	color:#fff;
+	font-size: 24rpx;
+}
+.listitem .hearImg{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	margin-left: 17rpx;
+}
+.listitem .name{
+	color: #6E0703;
+	font-size: 28rpx;
+	margin-left: 24rpx;
+}
+.peoallnum{
+	font-size: 26rpx;
+	color: #6E0703;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: right;
+}
+.shsuoming{
+	color: #6E0703;
+	font-size: 20rpx;
+	text-align: center;
+	margin-top: 40rpx;
+}
+.myrank{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width:100%;
+	background:#F0DAC6;
+	padding: 40rpx;
+	margin: 30rpx auto 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.myrank .myheard{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+}
+.mynum{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	color: #6E0703;
+	margin-left: 25rpx;
+}
+.mynum .myname{
+	font-size: 30rpx;
+}
+.mynum .num{
+	font-size: 26rpx;
+}
+.mybtngo{
+	width:138rpx;
+	height:50rpx;
+	line-height: 50rpx;
+	background:#AC3734;
+	border-radius:10rpx;
+	padding: 0;
+	margin: 0;
+	font-size: 26rpx;
+	color: #fff;
+}
+

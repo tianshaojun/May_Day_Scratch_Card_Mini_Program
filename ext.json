@@ -1,0 +1,15 @@
+{
+	"extEnable": true,
+	"extAppid": "wx6eb73d01c22170ad",
+	"ext": {
+		"appid": "wx6eb73d01c22170ad",
+		"box_id": 65,
+		"siteroot": "https:\/\/test-onebox.molixyou.com\/goddess/",
+    "xcx_audit_status":2
+	},
+  "navigateToMiniProgramAppIdList": [
+    "wxfc309251b237fda80",
+    "wxcbf69f1c714d6883",
+    "wxa9dd6a96436d901a"
+  ]
+}

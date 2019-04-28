@@ -1,0 +1,141 @@
+
+page {
+		background-color: #fff;
+}
+.container {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		padding-bottom: 50rpx;
+		position: relative;
+		padding: 0 20rpx;
+}
+.topGgc{
+  width: 100%;
+  height: 528rpx;
+}
+.topGgcImg{
+  width: 100%;
+  height: 560rpx;
+}
+.arttitle{
+  padding: 0 40rpx 0 0rpx;
+}
+.title_top{
+	font-size: 24rpx;
+	color: #333;
+	margin-top: 50rpx;
+	margin-left: 40rpx;
+}
+.title_btm{
+	font-size: 40rpx;
+	color: #333;
+	margin-top: 50rpx;
+	margin-bottom: 20rpx;
+}
+.title_middle{
+font-size: 48rpx;
+color: #333;
+}
+.articleCt{
+  padding: 0 40rpx;
+}
+.game {
+  height: 150rpx;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 12rpx 12rpx;
+  margin-top: 100rpx;
+}
+.game .logo {
+  width: 110rpx;
+  height: 110rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+  border-radius: 6rpx;
+}
+.game .title {
+  width: calc(100% - 340rpx);
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 32rpx;
+  position: absolute;
+  top: 40rpx;
+  left: 170rpx;
+  font-weight: 900;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border: none;
+}
+.game .type {
+  width: calc(100% - 340rpx);
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 24rpx;
+  position: absolute;
+  top: 90rpx;
+  left: 170rpx;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border: none;
+}
+.game .area {
+  height: 120rpx;
+  width: 400rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  background-color: #444a59;
+  opacity: 0;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+}
+._button::after{
+  border: none;
+}
+.game .btn {
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  width: 122rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 40rpx;
+  border-radius: 5rpx;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+  font-size: 28rpx;
+  background-color: #FFC341;
+  color: #fff;
+}
+.game .btn .openApprout{
+   height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  width: 122rpx;
+  background-color: #FFC341;
+   font-size: 28rpx;
+   color: #fff;
+}
+.bacgI{
+  width: 100%;
+  height: 50rpx;
+  padding: 100rpx 0 50rpx 0;
+}
+.bacgI .bacgIBtn{
+   height: 50rpx;
+   line-height: 50rpx;
+   text-align: center;
+   font-size: 24rpx;
+   color: #2B70FF;
+}
+

@@ -1,0 +1,15 @@
+{
+	"extEnable": true,
+	"extAppid": "wxcbf69f1c714d6883",
+	"ext": {
+		"appid": "wxcbf69f1c714d6883",
+		"box_id": 107,
+		"siteroot": "https:\/\/test-onebox.molixyou.com\/scrape/",
+    "xcx_audit_status":2
+	},
+  "navigateToMiniProgramAppIdList": [
+    "wxfc309251b237fda80",
+    "wxcbf69f1c714d6883",
+    "wxa9dd6a96436d901a"
+  ]
+}

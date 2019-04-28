@@ -1,0 +1,561 @@
+
+page {
+		background-color: rgb(161,45,29);
+}
+.container {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 100rpx;
+}
+.lucky-wheel {
+		position: relative;
+}
+
+	/*无缝滚动  */
+.swiper_ {
+		position: relative;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		z-index: 66;
+		padding: 30rpx 60rpx 0;
+		height: 91rpx;
+}
+.swiper_bgc{
+		position: absolute;
+		width: 719rpx;
+		top: 0;
+		left: 30rpx;
+		height: 91rpx;
+}
+.swiper_container {
+		height: 60rpx;
+		width: 100%;
+		line-height: 60rpx;
+		text-align: center;
+		color: #666;
+		/* background: rgba(255, 255, 255, 0.8); */
+		border-radius: 33rpx;
+}
+.swiper_item {
+		width: 100%;
+		font-size: 24rpx;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		white-space: nowrap;
+		letter-spacing: 2rpx;
+		font-size: 24rpx;
+		color: #3A2120;
+}
+.Surplus-num {
+		font-size: 24rpx;
+		text-align: center;
+		color: #fff;
+		margin: 40rpx 0 30rpx 0;
+}
+.topBgc {
+		height: 456rpx;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		top: 0;
+}
+.mygoods {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		z-index: 66;
+		position: absolute;
+		right: 0rpx;
+		top: 30rpx;
+		width: 62rpx;
+		height: 159rpx;
+		padding: 0;
+		font-size: 26rpx;
+		border-radius:20rpx 0px 0px 20rpx;
+		color: #fff;
+}
+.mygoodsbtnimg {
+		width: 100%;
+		height: 100%;
+}
+.paihangb {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		z-index: 66;
+		position: absolute;
+		right: 0rpx;
+		top: 210rpx;
+		width: 62rpx;
+		height: 128rpx;
+		font-size: 26rpx;
+		color: #fff;
+		border-radius:20rpx 0px 0px 20rpx;
+		padding: 0;
+}
+.paihangbbtnimg {
+		width: 100%;
+		height: 100%;
+}
+#lottery {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		width: 690rpx;
+		height: 316rpx;
+		margin: 50rpx auto 0;
+		position: relative;
+		padding: 20rpx 30rpx;
+		z-index: 2;
+}
+.endtime{
+		width: 690rpx;
+		height: 316rpx;
+		line-height: 316rpx;
+		text-align: center;
+		color: #fff;
+		font-size: 50rpx;
+}
+.lotterytime{
+	color: #3A2120;
+	font-size: 24rpx;
+	text-align: center;
+}
+.available_num{
+	font-size: 24rpx;
+	color: #fff;
+	text-align: center;
+	margin-top:30rpx;
+	margin-bottom: 50rpx;
+}
+.scroll-Y{
+	height: 100%;
+}
+
+	/*刮刮卡抽奖  */
+#guagua {
+		background: rgb(235,61,54);
+		position: relative;
+		width: 630rpx;
+		height: 276rpx;
+}
+#guagua ._canvas {
+		position: absolute;
+		width: 630rpx;
+		height: 276rpx;
+		left: 0px;
+		top: 0px;
+		z-index: 9;
+}
+#guagua .guagua-re {
+		position: absolute;
+		width: 630rpx;
+		height: 276rpx;
+		line-height: 276rpx;
+		left: 0px;
+		top: 0px;
+		z-index: 5;
+		color: #fff;
+		text-align: center;
+		font-size: 50rpx;
+}
+
+	/*刮刮卡抽奖  */
+.lotteryBgc {
+		width: 690rpx;
+		height: 316rpx;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -2;
+}
+.lucky-title {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding-top: 290rpx;
+		font-weight: block;
+		height: 456rpx;
+		position: relative;
+		z-index: 22;
+}
+.slogen {
+		width: 100%;
+		text-align: center;
+		padding-top: 109rpx;
+}
+.slogen .slogenimg {
+		width: 542rpx;
+		max-height: 400rpx;
+}
+.Invitationtask {
+		margin-top: 40rpx;
+		position: relative;
+}
+.InvBgc{
+		position: absolute;
+		left: 0;
+		top: 0;
+}
+.tasktitle {
+		text-align: center;
+}
+.tasktitle .titleimg {
+		width: 404rpx;
+		height: 96rpx;
+}
+
+	/* 去兑换 */
+.exchange {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		width: 690rpx;
+		padding: 25rpx 25rpx;
+		border-radius: 10rpx;
+		margin: 10rpx auto 0;
+		color: #3A2120;
+		font-size: 26rpx;
+		position: relative;
+}
+.exchangeBgc{
+				width: 690rpx;
+				height: 128rpx;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: -2;
+}
+.exchangeinfo {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.exchange .exchangebtm {
+		margin-top: 10rpx;
+}
+.exchange .Btn {
+		width: 138rpx;
+		height: 50rpx;
+		line-height: 50rpx;
+		background: #AC3734;
+		border-radius: 10rpx;
+		color: #fff;
+		font-size: 26rpx;
+		padding: 0;
+		margin: 0;
+}
+
+	/* 邀请任务 */
+.Invtaskinfo {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		width:100%;
+		height: 384rpx;
+		padding: 120rpx 90rpx 20rpx;
+		border-radius: 10rpx;
+		margin: 0 auto;
+		position: relative;
+}
+.Invtaskinfo .InvBgc{
+		position: absolute;
+		width: 100%;
+		height: 384rpx;
+		left: 0;
+		top: 0;
+		z-index: -2;
+}
+.distitle {
+		font-size: 24rpx;
+		text-align: center;
+		color: #6E0703;
+}
+.fivepeo {
+		margin-top: 30rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.btmpeo {
+		text-align: center;
+}
+.btmpeo .btnpeoheard {
+		height: 80rpx;
+		width: 80rpx;
+		border-radius: 50%;
+}
+.fivename {
+		font-size: 20rpx;
+		color: #fff;
+		margin-top: 10rpx;
+		width: 80rpx;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		white-space: nowrap;
+}
+.yaoqing {
+		text-align: center;
+}
+.fivebtn {
+		height: 80rpx;
+		width: 80rpx;
+		border-radius: 50%;
+		padding: 0;
+		margin: 0;
+		border: 0;
+		background: rgba(0, 0, 0, 0);
+}
+.yaoqing .fivebtnimg {
+		height: 80rpx;
+		width: 80rpx;
+		border-radius: 50%;
+}
+.fivebtname {
+		font-size: 20rpx;
+		color: #6E0703;
+		margin-top: 10rpx;
+}
+.lookall {
+		width:172rpx;
+		background-color: #F1D08F;
+		height:48rpx;
+		line-height: 48rpx;
+		color: #AC3734;
+		font-size: 24rpx;
+		font-weight: block;
+		border:2rpx solid rgba(172,55,52,1);
+		-webkit-box-shadow:0px 0px 4rpx 4rpx #F1D08F;
+		        box-shadow:0px 0px 4rpx 4rpx #F1D08F;
+		margin-top: 10rpx;
+}
+
+	/* 打开任务 */
+.openinfo {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		width: 100%;
+		height: 333rpx;
+		padding: 140rpx 80rpx 0;
+		border-radius: 10rpx;
+		margin: 0 auto;
+		position: relative;
+}
+.openinfo .openBgc{
+		position: absolute;
+		width: 100%;
+		height: 333rpx;
+		left: 0;
+		top: 0;
+		z-index: -2;
+}
+.openlist {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.openlist .openheard {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		margin-right: 15rpx;
+}
+.openlist .openheard .heardimg {
+		width: 112rpx;
+		height: 112rpx;
+		border-radius: 50%;
+}
+.openlist .openbrie {
+		-webkit-box-flex: 3;
+		-webkit-flex: 3;
+		    -ms-flex: 3;
+		        flex: 3;
+}
+.openbrie .opentop {
+		font-size: 32rpx;
+		font-weight: block;
+		color: #6E0703;
+}
+.openbrie .openbtm {
+		color: #6E0703;
+		font-size: 24rpx;
+		margin-top: 10rpx;
+}
+.openlist .openBtn {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+}
+.openlist .openBtn .Btn {
+		width: 138rpx;
+		height: 50rpx;
+		line-height: 50rpx;
+		background: #AC3734;
+		border-radius: 10rpx;
+		color: #fff;
+		font-size: 26rpx;
+		padding: 0;
+		margin: 0;
+}
+
+	/* 规则 */
+.ruleinfo {
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		width: 100%;
+		height: 483rpx;
+		padding: 138rpx 80rpx 70rpx;
+		border-radius: 10rpx;
+		margin: 0 auto;
+		position: relative;
+}
+.ruleBgc{
+		position: absolute;
+		width: 100%;
+		height: 483rpx;
+		left: 0;
+		top: 0;
+		z-index: -2;
+}
+.ruleinfo .rulelist {
+		color: #6E0703;
+		font-size: 22rpx;
+		line-height: 1.7;
+}
+
+	/* prizemask */
+.mask {
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.6);
+		width: 100%;
+		height: 100%;
+		z-index: 300;
+}
+.prizebox {
+		width: 580rpx;
+		height: 850rpx;
+		margin: 110rpx auto 0;
+		position: relative;
+		padding-top: 60rpx;
+}
+.pribgc {
+		position: absolute;
+		top: 0;
+		top: 0;
+		width: 100%;
+		z-index: -1;
+}
+.priimg {
+		width: 346rpx;
+		height: 346rpx;
+		display: block;
+		margin: 70rpx auto 0;
+}
+.priname {
+		color: #810A06;
+		text-align: center;
+		font-size: 42rpx;
+		line-height: 60rpx;
+}
+.lookdetilbtn {
+		width: 520rpx;
+		height: 96rpx;
+		line-height: 96rpx;
+		background:#AC3734;
+		border-radius: 10rpx;
+		font-size: 36rpx;
+		color: #fff;
+		margin-top: 110rpx;
+}
+.autherbox {
+		width: 500rpx;
+		height: 700rpx;
+		margin: 170rpx auto 0;
+		position: relative;
+		padding-top: 590rpx;
+}
+.fridautherbox {
+		width: 500rpx;
+		height: 700rpx;
+		margin: 170rpx auto 0;
+		position: relative;
+		padding-top: 30rpx;
+}
+.fridinfo {
+		position: relative;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		margin-bottom: 490rpx;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding-left: 30rpx;
+}
+.fridinfo .fridImg {
+		width: 60rpx;
+		height: 60rpx;
+		border-radius: 50%;
+		border: 4rpx solid #E8557F;
+}
+.fridinfo .fridName {
+		font-weight: bold;
+		margin-left: 20rpx;
+		font-size: 30rpx;
+		color: #E8557F;
+}
+.autherbgc {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 500rpx;
+		height: 700rpx;
+}
+.autherbtn {
+		width: 360rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		background: #AC3734 ;
+		border-radius: 10rpx;
+		color: #fff;
+		font-size: 32rpx;
+}
+.htmlshow{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		background-color: #AC3734;
+		color: #fff;
+		text-align: center;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding-top: 50%;
+		font-size: 28rpx;
+}
+
